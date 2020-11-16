@@ -1,3 +1,4 @@
+![IntelliPy Logo](https://user-images.githubusercontent.com/50486014/99252229-f16c6c80-280e-11eb-883b-a308a2d0cf86.png)
 # IntelliPy
 ## Python GUI for automatic analyses of IntelliCage data
 
