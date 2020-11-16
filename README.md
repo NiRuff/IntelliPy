@@ -13,6 +13,8 @@ IntelliPy aims to simplify and automize many aspects of the analysis, such as ac
 IntelliyPy utilizes the Nosepoke.txt and Visit.txt file of an experiment. These files can be extracted using the TSE Analyzer.
 Additionally, a Group Assignment file has to be created:
 
+![Usage](https://user-images.githubusercontent.com/50486014/99260095-3c8c7c80-281b-11eb-8d59-d9ec71e55747.png)
+
 #### Create a group assignment file:
 A tab-separated text file (tsv) is necessary in order to tell IntelliPy, which Animal belongs to which group.
 It additionally contiains information about the label given for sucrose - if Sucrose Preference experiments were performed.
@@ -25,6 +27,9 @@ You have to create this file for yourself in this manner:
 *An example file is added as* **"Group_assignment.txt"**
 
 ### Conducted analyses:
+
+![Analyses Overview](https://user-images.githubusercontent.com/50486014/99260101-3dbda980-281b-11eb-8760-6252db54acd3.png)
+
 #### Pivot tables:
 For the parameters, measured by the IntelliCage Systems, such as **Lick Duration, Nosepoke Number** or **NosepokeDuration**, pivot tables are created for each module by IntelliPy. By default, these timeframes are created per day, but the user can add more timeframes using the IntelliPy GUI, like e.g. 12-hour or 6-hour timeframes. For further sttistical analyses, the pivoting results are stored as CSV files.
 
