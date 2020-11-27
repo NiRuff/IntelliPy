@@ -8,6 +8,21 @@ The IntelliCage system helps researchers to conduct behavioral experiments and l
 However, analyzing those big amounts of data is challenging for many researchers. 
 IntelliPy aims to simplify and automize many aspects of the analysis, such as acquiring data per group, creating learning curves or pivoting parameters in different timeframes. All plots are automatically created and the final tables for statistical tests are stored separately for the user.
 
+### Installation & Launch
+
+#### ...using pip
+IntelliPy can be installed in principal for every operating system running Python. The easiest way, is installing it via the Python Packaging Index (PyPI) using the command:
+
+```pip install intellipy```
+
+and then used with
+
+```python3 -m intellipy``` or just ```python -m intellipy```
+
+#### ...using the intelli.exe
+If you have problems installing IntelliPy using pip, you can also download a windows exe file [here](https://seafile.rlp.net/f/a7f0d918b8fe44f6aadf/?dl=1). As there is no need to have Python or any packages (e.g. pandas) installed, this file is very big, as it brings python and all recommended packages with it.
+Choosing the latter way for using IntelliPy, you just have to extract the *ZIP* file, open the directory and launch the *intelli.exe*.
+
 ### Usage
 
 IntelliyPy utilizes the Nosepoke.txt and Visit.txt file of an experiment. These files can be extracted using the TSE Analyzer.
