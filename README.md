@@ -15,7 +15,7 @@ IntelliPy can be installed in principal for every operating system running Pytho
 
 ```pip install intellipy```
 
-and then used with
+It can then be used with
 
 ```python3 -m intellipy``` or just ```python -m intellipy```
 
