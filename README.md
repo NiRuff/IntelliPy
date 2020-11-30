@@ -32,7 +32,7 @@ Additionally, a Group Assignment file has to be created:
 
 #### Create a group assignment file:
 A tab-separated text file (tsv) is necessary in order to tell IntelliPy, which Animal belongs to which group.
-It additionally contiains information about the label given for sucrose - if Sucrose Preference experiments were performed.
+It additionally contains information about the label given for sucrose - if Sucrose Preference experiments were performed.
 You have to create this file for yourself in this manner:
 
 1)  Give the word **Label** followed by a tab followed by the label you chose for sucrose in line one.
