@@ -46,11 +46,11 @@ You have to create this file for yourself in this manner:
 ![Analyses Overview](https://user-images.githubusercontent.com/50486014/99260101-3dbda980-281b-11eb-8760-6252db54acd3.png)
 
 #### Pivot tables:
-For the parameters, measured by the IntelliCage Systems, such as **Lick Duration, Nosepoke Number** or **NosepokeDuration**, pivot tables are created for each module by IntelliPy. By default, these timeframes are created per day, but the user can add more timeframes using the IntelliPy GUI, like e.g. 12-hour or 6-hour timeframes. For further sttistical analyses, the pivoting results are stored as CSV files.
+For the parameters, measured by the IntelliCage Systems, such as **Lick Duration, Nosepoke Number** or **NosepokeDuration**, pivot tables are created for each module by IntelliPy. By default, these timeframes are created per day, but the user can add more timeframes using the IntelliPy GUI, like e.g. 12-hour or 6-hour timeframes. For further statistical analyses, the pivoting results are stored as CSV files.
 
 #### Learning Rates:
 As the experiments conducted with the IntelliCage systems can be conducted as learning experiments with different setups per phase, the learning rate of each individual as well as for the each group can be of high interest. Rather than only the final rate of correct attempts, the rate per hour and per visit is computed and plotted by IntelliPy. This enables the user, to utilize longitudinal learning information for each individual and group.
-For those learning rates, it is even possible to include all nosepokes or to remove those that were not followed by a lick. It can be argued about, whether a nosepoe without a lick should or shouldn't be accounted as a correct attempt, so this decision is up to the user. Furthermoe, there are both, the possibility to exclude all nosepokes not followed by a lick or to treat them as incorrect attempts.
+For those learning rates, it is even possible to include all nosepokes or to remove those that were not followed by a lick. It can be argued about, whether a nosepoe without a lick should or shouldn't be accounted as a correct attempt, so this decision is up to the user. Furthermore, there are both, the possibility to exclude all nosepokes not followed by a lick or to treat them as incorrect attempts.
 
 #### Sucrose Preference analyses:
 For learning experiments, including the choice between water and sucrose, the proportion of LickDuration spent for Sucrose over time is computed by IntelliPy. Additionally, it is possible to define Sucrose and Water or just one of both as correct for the learning rate.
