@@ -20,7 +20,7 @@ It can then be used with
 ```python3 -m intellipy``` or just ```python -m intellipy```
 
 #### ...using the intelli.exe
-If you have problems installing IntelliPy using pip, you can also download a windows exe file [here](https://seafile.rlp.net/f/a7f0d918b8fe44f6aadf/?dl=1). As there is no need to have Python or any packages (e.g. pandas) installed, this file is very big, as it brings python and all recommended packages with it.
+If you have problems installing IntelliPy using pip, you can also download a windows exe file [here](https://seafile.rlp.net/f/1a9e63dc038b4a1e87be/?dl=1). As there is no need to have Python or any packages (e.g. pandas) installed, this file is quite big (75MB unzipped), as it brings Python and all recommended packages with it.
 Choosing the latter way for using IntelliPy, you just have to extract the *ZIP* file, open the directory and launch the *intelli.exe*.
 
 ### Usage
