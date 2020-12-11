@@ -25,15 +25,12 @@ Choosing the latter way for using IntelliPy, you just have to extract the *ZIP* 
 
 ### Usage
 
-IntelliyPy utilizes the Nosepoke.txt and Visit.txt file of an experiment. These files can be extracted using the TSE Analyzer.
-Additionally, a Group Assignment file has to be created:
+IntelliPy utilizes the Nosepoke.txt, Visit.txt and Animal.txt file of an IntelliCage experiment. These files can be extracted using the TSE Analyzer. Additionally, if new groups should be assigned that are not included in the Animal.txt file, a group assignment file can be created, in order to conduct new group-wise analyses or to specify the used sucrose label for sucrose preference experiments:
 
 ![Usage](https://user-images.githubusercontent.com/50486014/99260095-3c8c7c80-281b-11eb-8d59-d9ec71e55747.png)
 
 #### Create a group assignment file:
-A tab-separated text file (tsv) is necessary in order to tell IntelliPy, which Animal belongs to which group.
-It additionally contains information about the label given for sucrose - if Sucrose Preference experiments were performed.
-You have to create this file for yourself in this manner:
+A tab-separated text file (tsv) can be used instead of the Animal.txt file for assigning new animal-group relationships. To address experiments with multiple conditions per animal, it is possible to relate an animal to more than one group. The group assignment file additionally contains information about the label given for sucrose if sucrose preference experiments were performed. It can be created as follows:
 
 1)  Give the word **Label** followed by a tab followed by the label you chose for sucrose in line one.
 2)  Give the name of the first group followed by a tab and then all animals belonging to this group - also tab separated
@@ -53,5 +50,5 @@ As the experiments conducted with the IntelliCage systems can be conducted as le
 For those learning rates, it is even possible to include all nosepokes or to remove those that were not followed by a lick. It can be argued about, whether a nosepoe without a lick should or shouldn't be accounted as a correct attempt, so this decision is up to the user. Furthermore, there are both, the possibility to exclude all nosepokes not followed by a lick or to treat them as incorrect attempts.
 
 #### Sucrose Preference analyses:
-For learning experiments, including the choice between water and sucrose, the proportion of LickDuration spent for Sucrose over time is computed by IntelliPy. Additionally, it is possible to define Sucrose and Water or just one of both as correct for the learning rate.
+For learning experiments, including the choice between Sucrose and Water, the proportion of Lick Duration spent for Sucrose rather than Water over time is computed by IntelliPy. Additionally, it is possible to define Sucrose and Water or just one of both as correct for the learning rate. This will influence the computation of the learning rate of the sucrose preference experiments. All chosen variants will be computed and shown in the resulting xlsx files.
 
