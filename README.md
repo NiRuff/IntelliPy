@@ -27,7 +27,7 @@ Choosing the latter way for using IntelliPy, you just have to extract the *ZIP* 
 
 IntelliPy utilizes the Nosepoke.txt, Visit.txt and Animal.txt file of an IntelliCage experiment. These files can be extracted using the TSE Analyzer. Additionally, if new groups should be assigned that are not included in the Animal.txt file, a group assignment file can be created, in order to conduct new group-wise analyses or to specify the alternative side conditions such as "Sucrose" or any other user-defined label for e.g. sucrose preference experiments:
 
-![Usage](https://user-images.githubusercontent.com/50486014/99260095-3c8c7c80-281b-11eb-8d59-d9ec71e55747.png)
+![Usage](https://user-images.githubusercontent.com/50486014/112329058-243fd900-8cb7-11eb-990a-d3e3e2f42795.png)
 
 #### Create a group assignment file:
 A tab-separated text file (tsv) can be used instead of the Animal.txt file for assigning new animal-group relationships. To address experiments with multiple conditions per animal, it is possible to relate an animal to more than one group. The group assignment file additionally contains information about the alternative label (if used). If such alternative labels were used in the IntelliCage experiment and are thus provided by the user in the group assignment file, the options when starting IntelliPy adjust, so that the user can chosose, how to treat this alternative label. The group assignment file can be created as follows:
