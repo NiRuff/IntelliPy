@@ -23,7 +23,7 @@ It can then be used with
 If you have problems installing IntelliPy using pip, you can also download a windows exe file [here](https://seafile.rlp.net/repo/e0e11fef-b403-428a-bfcd-4fd58983f889/3d1f4cbec020c290e9c7d26244669f798e20c33b/download/?file_name=intellipy.zip&p=%2Fintellipy.zip). As there is no need to have Python or any packages (e.g. pandas) installed, this file is quite big (75MB unzipped), as it brings Python and all recommended packages with it.
 Choosing the latter way for using IntelliPy, you just have to extract the *ZIP* file, open the directory and launch the *intelli.exe*.
 
-### Usage
+### Settings
 
 IntelliPy utilizes the Nosepoke.txt, Visit.txt and Animal.txt file of an IntelliCage experiment. These files can be extracted using the TSE Analyzer. Additionally, if new groups should be assigned that are not included in the Animal.txt file, a group assignment file can be created, in order to conduct new group-wise analyses or to specify the used sucrose label for sucrose preference experiments:
 
