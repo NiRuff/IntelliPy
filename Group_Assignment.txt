@@ -1,7 +1,0 @@
-Label	Neutral
-GroupCtrl_Ctrl	Animal 10	Animal 12	Animal 2	Animal 5	Animal 6	Animal 8
-GroupCtrl_CSD	Animal 1	Animal 11	Animal 3	Animal 4	Animal 7	Animal 9
-GroupELS_Ctrl	Animal 14	Animal 15	Animal 17	Animal 19	Animal 23	Animal 24
-GroupELS_CSD	Animal 13	Animal 16	Animal 18	Animal 20	Animal 21	Animal 22
-GroupCtrl	Animal 1	Animal 11	Animal 3	Animal 4	Animal 7	Animal 9	Animal 10	Animal 12	Animal 2	Animal 5	Animal 6	Animal 8
-GroupELS	Animal 14	Animal 15	Animal 17	Animal 19	Animal 23	Animal 24	Animal 13	Animal 16	Animal 18	Animal 20	Animal 21	Animal 22
