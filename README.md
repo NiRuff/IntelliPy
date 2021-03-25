@@ -32,7 +32,7 @@ IntelliPy utilizes the Nosepoke.txt, Visit.txt and Animal.txt file of an Intelli
 #### Create a group assignment file:
 A tab-separated text file (tsv) can be used instead of the Animal.txt file for assigning new animal-group relationships. To address experiments with multiple conditions per animal, it is possible to relate an animal to more than one group. The group assignment file additionally contains information about the alternative label (if used). If such alternative labels were used in the IntelliCage experiment and are thus provided by the user in the group assignment file, the options when starting IntelliPy adjust, so that the user can chosose, how to treat this alternative label. The group assignment file can be created as follows:
 
-1)  Give the word **Label** followed by a tab followed by the alternative label used in the experiment (if noe alternative label was used, write _None_ as alternative label.
+1)  Give the word **Label** followed by a tab followed by the alternative label used in the experiment (if no alternative label was used, write _None_ as alternative label.
 2)  Give the name of the first group followed by a tab and then all animals belonging to this group - also tab separated
 3)  repeat step 2) for all remaining groups
 
