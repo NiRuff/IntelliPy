@@ -54,3 +54,10 @@ For learning experiments, including the choice between two sides after choosing 
 
 ### Output files
 ...
+
+5_SucrosePreference_alternative_Label_Data.xlsx"
+5_SucrosePreference_nosepoke_learning_Data.xlsx"
+5_SucrosePreference_nosepoke_learning_Data_Water&NeutralCorrect.xlsx"
+5_SucrosePreference\5_SucrosePreference_pivot_Data.xlsx"
+5_SucrosePreference\5_SucrosePreference_visit_learning_Data.xlsx"
+5_SucrosePreference\5_SucrosePreferencedata.csv"
