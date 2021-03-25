@@ -1,2 +1,2 @@
-Label	Sucrose
+Label	None
 FVB strain	FVB strain animal 1	FVB strain animal 2	FVB strain animal 3	FVB strain animal 4	FVB strain animal 5	FVB strain animal 6	FVB strain animal 7	FVB strain animal 8	FVB strain animal 9	FVB strain animal 10	FVB strain animal 11
