@@ -53,11 +53,17 @@ For those learning rates, it is even possible to include all nosepokes or to rem
 For learning experiments, including the choice between two sides after choosing the correct place, such as the choice between one side with Sucrose and one with Water, the proportion of Lick Duration spent for one side rather than the other side over time is computed by IntelliPy. Additionally, it is possible to define the alternative label (e.g. "Sucrose") as correct or as incorrect for the learning rate computation. This will influence the computation of the learning rate of the sucrose preference experiments. Consequently, for learning modules utilizing an alternative label, the nosepoke learning rate files are influenced by the used option and one additional file is created for showing the lick duration ratio between the "alternative label" side and the "Correct" side.
 
 ### Output files
-...
 
-5_SucrosePreference_alternative_Label_Data.xlsx"
-5_SucrosePreference_nosepoke_learning_Data.xlsx"
-5_SucrosePreference_nosepoke_learning_Data_Water&NeutralCorrect.xlsx"
-5_SucrosePreference\5_SucrosePreference_pivot_Data.xlsx"
-5_SucrosePreference\5_SucrosePreference_visit_learning_Data.xlsx"
-5_SucrosePreference\5_SucrosePreferencedata.csv"
+All output files are named by <Module Number>_<Module Name>_<output suffix>.
+e.g. 1_FreeAdaptation_ ...
+ 
+The following outputs are created:
+
+* _nosepoke_learning_Data.xlsx_
+* _pivot_Data.xlsx_
+* _visit_learning_data.xlsx_
+* _data.csv_
+
+>If alternative label is used:
+> *  _learning_Data_Correct&<alternative label>Correct.xlsx_
+> * _alternative_Label_Data.xlsx_
