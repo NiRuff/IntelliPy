@@ -58,7 +58,7 @@ All output files are named by the following scheme:
 
 `<Module Number>_<Module Name>_<output suffix>`
  
-e.g. 1_FreeAdaptation_ ...
+e.g. 1_FreeAdaptation_pivot_Data.xlsx
  
 The following outputs are created:
 
@@ -73,13 +73,13 @@ The following outputs are created:
 > * _alternative_Label_Data.xlsx_
 
 #### _nosepoke_learning_Data.xlsx_
-This file contains the table for the overall learning rate per individual and per group for nosepoke 1 - n in the first sheet. The second sheet contains the same information, but not computed for every single nosepoke but after each hour, so that it gives the possibilitiy to compare the learning performance between individuals and groups based on time and not based on trials. Additionally, the given data is also visulaized in line plots showing all individuals and all defined groups.
-If the user decided to treat nosepokes not followed by a lick differently (excluded or as incorrect), the data and plots are also created per nosepoke and per hour in different sheets. Additionally, the user can also decide to create sheets in which only nosepoke not followed by a lick are shown, e.g. if this behavior is researched as playing behavior.
+This file contains the table for the overall learning rate per individual and per group for nosepoke 1 - n in the first sheet. The second sheet contains the same information, but not computed for every single nosepoke but after each hour, so that it gives the possibility to compare the learning performance between individuals and groups based on time and not based on trials. Additionally, the given data is also visulaized in line plots showing all individuals and all defined groups.
+If the user decided to treat nosepokes not followed by a lick differently (excluded or as incorrect), the data and plots are also created per nosepoke and per hour in different sheets. Additionally, the user can also decide to create sheets in which only nosepokes not followed by a lick are shown, e.g. if this behavior is assumed as playing behavior.
 
-Both, the nosepoke.txt and the visit.txt file can be used for computing the learning rate but the latter contains information on the side error and the place error, whereas the former only contains information that are connected to nosepokes, so the place errors are not included in the data (as no nosepokes are possible at the wrong "place"). Additionally, the visit.txt file contains information per visit, not per nosepoke, so that many nosepokes can be included in one visit and thus temporal resolution is less detailed than in the nosepoke.txt file. Furthermore, the visit.txt data is not showing if a specific nosepoke was followed by a lick so that this part of the analysis is only included in the _nosepoke_learning_Data.xlsx_.
+Both, the nosepoke.txt and the visit.txt file can be used for computing the learning rate but the latter contains information on the side error and the place error, whereas the former only contains information that are connected to nosepokes, so the place errors are not included in the data (as no nosepokes are possible at the wrong "place"). Additionally, the visit.txt file contains information per visit, not per nosepoke, so that many nosepokes can be included in one visit and thus temporal resolution is less detailed than in the _Nosepoke.txt_ file. Furthermore, the _Visit.txt_ data is not showing if a specific nosepoke was followed by a lick so that this part of the analysis is only included in the _nosepoke_learning_Data.xlsx_.
 
 #### _pivot_Data.xlsx_
-The aggregated data (sum) for each animal and group of the LickDuration, LickNumber, NosepokeDuration, NosepokeNumber, VisitCount and LickContactTime is given here as tables and graphs on different sheets. Per default, all data is aggregated by day. If the user specified some other hour intervals in the options, e.g. 12 hours, 6 hours, etc., these intervals will also be given here for each parameter in separate sheets.
+The aggregated data (sum) for each animal and group of the **LickDuration**, **LickNumber**, **NosepokeDuration**, **NosepokeNumber**, **VisitCount** and **LickContactTime** is given here as tables and graphs on different sheets. Per default, all data is aggregated by day. If the user specified some other hour intervals in the options, e.g. 12 hours, 6 hours, etc., these intervals will also be given here for each parameter in separate sheets.
 
 #### _visit_learning_Data.xlsx_
 This file contains the table for the overall learning rate per individual and per group for visit 1 - n in the first sheet. The second sheet contains the same information, but not computed for every single nosepoke but after each hour, so that it gives the possibilitiy to compare the learning performance between individuals and groups based on time and not based on trials.
@@ -87,7 +87,7 @@ Sheet number three and four contain the analogous information on the place error
 Additionally, the given data is also visulaizedin line plots showing all individuals and all defined groups.
 
 #### _data.csv_
-After all learning modules and their starting times are extracted automatically by IntelliPy, the original files for Visit.txt and Nosepoke.txt are sliced based on these modules. For each extracted module, the sliced version of the Visit.txt file is given here as a csv file in order to able to comprehend the exact data that was used for the analyses. IntelliPy also gives information in the log.txt file on whether the sum of all data in the sliced modules sum up to the original data.
+After all learning modules and their starting times are extracted automatically by IntelliPy, the original files for _Visit.txt_ and _Nosepoke.txt_ are sliced based on these modules. For each extracted module, the sliced version of the _Visit.txt_ file is given here as a **csv** file in order to able to comprehend the exact data that was used for the analyses. IntelliPy also gives information in the _log.txt_ file on whether the sum of all data in the sliced modules sum up to the original data.
 
 ### Analyses with alternative label
 
@@ -95,4 +95,7 @@ After all learning modules and their starting times are extracted automatically 
 Based on the chosen option, the alternative label is treated as correct or incorrect for the learning rate computation. Given this alteration, the file is computed just as the _nosepoke_learning_Data.xlsx_.
 
 #### _alternative_Label_Data.xlsx_
-This file shows the LickDuration ratio up to nosepoke/hour x of the alternative label per total LickDuration. For e.g. sucrose preference experiments, the ratio of total LickDuration per animal/group up to a given timepoint/nosepoke can be compared here.
+This file shows the **LickDuration** ratio up to nosepoke/hour _x_ of the alternative label per total **LickDuration**. For e.g. sucrose preference experiments, the **LickDuration** ratio of sucrose per total **LickDuration** per animal/group up to a given timepoint/nosepoke can be compared here.
+
+### The _log.txt_ file
+The _log.txt_ file contains all parameters that were chosen by the user in order to ensure traceability of the results. Additionally, it is given, if the slicing of the original data into the different modules was successful by checking if the row numbers of all slices combined sum up to the row number of the original files. The path to the used input is given as well to make every part of the experiment traceable and thus reproducible.
