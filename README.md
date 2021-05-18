@@ -80,6 +80,8 @@ The following outputs are created:
 >If alternative label is used, also:
 > *  _learning_Data_Correct&<alternative label>Correct.xlsx_
 > * _alternative_Label_Data.xlsx_
+ 
+These .xlsx output files contain the tabular data and also the plots, showing the data per individual and per group in two different plots per sheet.
 
 #### _nosepoke_learning_Data.xlsx_
 This file contains the table for the overall learning rate per individual and per group for nosepoke 1 - n in the first sheet. The second sheet contains the same information, but not computed for every single nosepoke but after each hour, so that it gives the possibility to compare the learning performance between individuals and groups based on time and not based on trials. Additionally, the given data is also visualized in line plots showing all individuals and all defined groups.
