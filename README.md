@@ -36,7 +36,7 @@ Choosing the latter way for using IntelliPy, you just have to extract the *ZIP* 
 
 IntelliPy utilizes the Nosepoke.txt, Visit.txt and Animal.txt file of an IntelliCage experiment. These files can be extracted using the TSE Analyzer. Additionally, if new groups should be assigned that are not included in the Animal.txt file, a group assignment file can be created, in order to conduct new group-wise analyses or to specify the alternative side conditions such as "Sucrose" or any other user-defined label for e.g. sucrose preference experiments:
 
-![Usage](https://user-images.githubusercontent.com/50486014/112329058-243fd900-8cb7-11eb-990a-d3e3e2f42795.png)
+![Usage](https://user-images.githubusercontent.com/50486014/119659466-796ea700-be2e-11eb-8a40-4910ea708c91.png)
 
 #### Creating a group assignment file:
 A tab-separated text file (tsv) can be used instead of the Animal.txt file for assigning new animal-group relationships. To address experiments with multiple conditions per animal, it is possible to relate an animal to more than one group. The group assignment file additionally contains information about the alternative label (if used). If such alternative labels were used in the IntelliCage experiment and are thus provided by the user in the group assignment file, the options when starting IntelliPy adjust, so that the user can choose, how to treat this alternative label. The group assignment file can be created as follows:
@@ -49,7 +49,7 @@ A tab-separated text file (tsv) can be used instead of the Animal.txt file for a
 
 ### Conducted analyses:
 
-![Analyses Overview](https://user-images.githubusercontent.com/50486014/99260101-3dbda980-281b-11eb-8760-6252db54acd3.png)
+![Analyses Overview](https://user-images.githubusercontent.com/50486014/119659474-7b386a80-be2e-11eb-9ce1-7b90b5570cb2.png)
 
 #### Pivot tables:
 For the parameters, measured by the IntelliCage Systems, such as **Lick Duration, Nosepoke Number** or **NosepokeDuration**, pivot tables are created for each module by IntelliPy. By default, these timeframes are created per day, but the user can add more timeframes using the IntelliPy GUI, like e.g. 12-hour or 6-hour timeframes. For further statistical analyses, the pivoting results are stored in the resulting xlsx files.
