@@ -9,6 +9,6 @@ Either the _Animal.txt_ or the group assignment file are necessary - not both. T
 
 The group assignment files can further be modified to assign animals to other groups, e.g. based on gender, genotype or any other condition or to add the alternative label, if any was used.
 
-For the prupose of showing the behavior of IntelliPy if alternative labels were used, one example dataset was modified so that it contains an alternative label (_C57AB_2012-08-28_2_Sucrose_).
+For the prupose of showing the behavior of IntelliPy if alternative labels were used, two example dataset were modified so that they contain an alternative label (_C57AB_2012-08-28_2_Sucrose_, _C57AB_2012-08-31_2_Sucrose_).
  
  
