@@ -34,7 +34,7 @@ Choosing the latter way for using IntelliPy, you just have to extract the *ZIP* 
 
 ### Settings
 
-IntelliPy utilizes the Nosepoke.txt, Visit.txt and Animal.txt file of an IntelliCage experiment. These files can be extracted using the TSE Analyzer. Additionally, if new groups should be assigned that are not included in the Animal.txt file, a group assignment file can be created, in order to conduct new group-wise analyses or to specify the alternative side conditions such as "Sucrose" or any other user-defined label for e.g. sucrose preference experiments:
+IntelliPy utilizes the **Nosepoke.txt**, **Visit.txt** and **Animal.txt** file (in this given order) of an IntelliCage experiment. These files can be extracted using the TSE Analyzer. Additionally, if new groups should be assigned that are not included in the Animal.txt file, a group assignment file can be created, in order to conduct new group-wise analyses or to specify the alternative side conditions such as "Sucrose" or any other user-defined label for e.g. sucrose preference experiments:
 
 ![Usage](https://user-images.githubusercontent.com/50486014/119659466-796ea700-be2e-11eb-8a40-4910ea708c91.png)
 
@@ -63,6 +63,10 @@ As there are two types of errors tracked in an IntelliCage experiment, namely Si
 For learning experiments, including the choice between two sides after choosing the correct place, such as the choice between one side with Sucrose and one with Water, the proportion of Lick Duration spent for one side rather than the other side over time is computed by IntelliPy. Additionally, it is possible to define the alternative label (e.g. "Sucrose") as correct or as incorrect for the learning rate computation. This will influence the computation of the learning rate of the sucrose preference experiments. Consequently, for learning modules utilizing an alternative label, the nosepoke learning rate files are influenced by the used option and one additional file is created for showing the lick duration ratio between the "alternative label" side and the "Correct" side.
 
 ### Output files
+
+In the current version of IntelliPy, it is also possible to extract the results as PNG and CSV files. However, we recommend using the XLSX option, as the XLSX output with different sheets, summarizing data and plots related to the same analysis, provides better structuring of the results.
+
+If the PNG + CSV option is used, the given tables and plots show the same data as described below.
 
 All output files are named by the following scheme:
 
