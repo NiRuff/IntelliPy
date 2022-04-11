@@ -1,4 +1,5 @@
-![IntelliPy Logo](https://user-images.githubusercontent.com/50486014/99252712-ad2d9c00-280f-11eb-994f-3149271e3e18.png)
+
+<img align="right" width="500" height="500" src=https://user-images.githubusercontent.com/50486014/99252712-ad2d9c00-280f-11eb-994f-3149271e3e18.png width="30%" height="30%" /> <br>
 # IntelliPy
 ## Python GUI for automatic analyses of IntelliCage data
 
