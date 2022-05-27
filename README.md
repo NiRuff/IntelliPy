@@ -11,7 +11,11 @@ IntelliPy aims to simplify and automize many aspects of the analysis, such as di
 
 ### Citation
 
-Please cite: https://pubmed.ncbi.nlm.nih.gov/34601559/
+Please cite: 
+
+Ruffini N, Müller M, Schmitt U, Gerber S. IntelliPy: A GUI for analyzing IntelliCage data. Bioinformatics. 2021 Oct 2;37(21):3972–3. doi: 10.1093/bioinformatics/btab682. Epub ahead of print. PMID: 34601559; PMCID: PMC8570781.
+
+https://pubmed.ncbi.nlm.nih.gov/34601559/
 
 ### Installation & Launch
 
