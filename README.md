@@ -9,7 +9,9 @@ The IntelliCage system helps researchers to conduct behavioral experiments and l
 However, analyzing those big amounts of data is challenging for many researchers. 
 IntelliPy aims to simplify and automize many aspects of the analysis, such as dividing data by learning module, acquiring data per group, creating learning curves or pivoting parameters in different timeframes. All plots are automatically created and the final tables for statistical tests are stored separately for the user.
 
-The related publication can be found here: https://pubmed.ncbi.nlm.nih.gov/34601559/
+### Citation
+
+Please cite: https://pubmed.ncbi.nlm.nih.gov/34601559/
 
 ### Installation & Launch
 
